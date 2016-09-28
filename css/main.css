@@ -1,0 +1,58 @@
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: #17c6bb;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Palation Linotype", Georgia, serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+a {
+  color: #f4a52e;
+}
+
+.warning-button {
+  background-color: orange;
+  color: white;
+  padding: 8px 12px;
+}
+
+#header {
+  border-radius: 6px;
+  border: 1px solid #333;
+  height: 60px;
+  background-color: #3e53e0;
+}
+
+#header #main-menu li {
+  display: inline;
+}
+
+#header #main-menu a {
+  color: white;
+}
+
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  height: 90px;
+  background-color: #9af651;
+}
