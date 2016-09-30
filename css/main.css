@@ -33,7 +33,13 @@ a {
 
 #header {
   border-radius: 6px;
-  border: 1px solid #333;
+  border: 1px solid orange;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
+  -webkit-moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
+  -moz-moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
+  -ms-moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
+  -o-moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
+  moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f4a52e;
   height: 60px;
   background-color: #3e53e0;
 }
