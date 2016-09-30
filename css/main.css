@@ -1,15 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 a {
   font-style: italic;
   text-decoration: none;
 }
 
 body {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Alegreya Sans", Arial, sans-serif;
   color: #17c6bb;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Palation Linotype", Georgia, serif;
+  font-family: "Titillium Web", Georgia, serif;
 }
 
 h2 {
@@ -18,7 +20,7 @@ h2 {
 }
 
 p {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Alegreya Sans", Arial, sans-serif;
 }
 
 a {
@@ -29,6 +31,10 @@ a {
   background-color: orange;
   color: white;
   padding: 8px 12px;
+}
+
+* html body {
+  font-size: 125%;
 }
 
 #header {
